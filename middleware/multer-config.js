@@ -18,4 +18,4 @@ const storage = multer.diskStorage({// on enregistre dans le disk
     }
 });
 
-module.exports = multer({ storage }).single('image');
+module.exports = multer({ storage: storage }).single('image');

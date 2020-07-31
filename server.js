@@ -4,7 +4,7 @@ const app = require('./app');// import app
 
 // la fonction normalizePort renvoie un port valide
 const normalizePort = val => {
-  const port = parseInt(val, 10);
+  const port = parseInt(val, 10); //entre 8 et 12
 
   if (isNaN(port)) {
     return val;
